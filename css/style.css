@@ -41,3 +41,89 @@ p, li {
     font-weight: 400;
     color: var(--main-black);
 }
+
+.btnWhite {
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 135px;
+    background: #2AF598;
+    background: -webkit-linear-gradient(top right, #2AF598, #08AFEA);
+    background: -moz-linear-gradient(top right, #2AF598, #08AFEA);
+    background: linear-gradient(top right, #2AF598, #08AFEA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btnGroup {
+    position: relative;
+    z-index: 1;
+}
+
+.whiteBG {
+    background-color: #fff;
+    display: block;
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    border-radius: 3px;
+}
+
+.btnColor {
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-image: var(--main-gradient);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.btnGreen {
+    color: var(--main-green);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+span {
+    color: var(--main-green);
+}
+
+/* header/nav */
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 100px;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+header {
+    background: url(img/deadpoolheader.png) no-repeat center/cover;
+    height: 100vh;
+    min-height: 900px;
+    width: 90%;
+    padding: 0 5%;
+}
