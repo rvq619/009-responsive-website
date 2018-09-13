@@ -1,5 +1,5 @@
 # 009-responsive-website
-Streaming movie site.
+Streaming movie layout development.
 
 Technologies used:
 - HTML5
